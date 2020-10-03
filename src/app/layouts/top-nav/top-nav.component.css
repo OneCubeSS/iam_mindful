@@ -1,0 +1,202 @@
+.fill-remaining-space {
+    flex: 1 1 auto;
+  }
+span{
+    display: inline-block;
+    margin: 20px 50px 20px 50px;
+}
+button{
+    display: inline-block;
+    font-family: Montserrat,sans-serif;
+    font-size: 11px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.nav-top-bar{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    font-family: Montserrat,sans-serif;
+    font-size: 11px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #42495b;
+    background-color: #fff;
+    border-bottom: 1px solid #ebebeb;
+    z-index: 111;
+    height: 44px;
+}
+.nav-below-bar
+{
+    position: relative;
+    height: 120px;
+    background-color: #fff;
+    box-sizing: border-box;
+    font-family: Montserrat,sans-serif !important;
+    font-size: 12px;
+    line-height: 1;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #42495b;
+}
+.navButton{
+  
+    display: inline-block;
+    vertical-align: middle;
+    padding: 0 25px;
+    font-family: Montserrat,sans-serif;
+}
+.logo
+{
+    display: block;
+    height: 115px !important;
+}
+.navTopButton
+{
+    width: 110px;
+    background-color: #04d2c8;
+    margin-right: 20%;
+    height: 25px;
+    border-radius: 15px;
+}
+.material-icons
+{
+    margin: 0px;
+}
+/* .navbar-title .image-container{
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    top: -1px;
+    position: relative;
+}
+
+.nav-mobile-menu .navbar-title{
+    display: none;
+}
+.navbar-title{
+    height: 100%;
+}
+.navbar-title h4{
+    margin-bottom: -6px;
+    position: relative;
+    top: -2px;
+}
+.navbar-title img{
+    width: 100%
+}
+#navbar-full .navbar{
+    border-radius: 0 !important;
+    margin-bottom: 15px;
+    z-index: 2;
+}
+.navbar-center{
+    margin-top: -3px;
+    float: none;
+    display: inline-block;
+}
+.navbar-default .logo-container .brand{
+    color: #999999;
+}
+.navbar-transparent .logo-container .brand{
+    color: #FFFFFF;
+}
+.navbar-small .logo-container .brand{
+    color: #333333;
+}
+.navbar-default.navbar-small .logo-container .brand{
+    color: #333333;
+}
+.navbar-transparent.navbar-small .logo-container .brand{
+    color: #FFFFFF;
+}
+.navbar-default.navbar-small .logo-container .brand{
+    color: #333333;
+}
+.section-navbars{
+    padding-top: 0;
+}
+#navbar .navbar{
+    border-radius: 0;
+}
+.navbar {
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0 10px 20px -12px rgba(0, 0, 0, 0.42), 0 3px 20px 0px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
+    padding: 10px 0;
+  
+    -webkit-transition: all 150ms ease 0s;
+   -moz-transition: all 150ms ease 0s;
+   -o-transition: all 150ms ease 0s;
+   -ms-transition: all 150ms ease 0s;
+   transition: all 150ms ease 0s;
+  }
+  .navbar .navbar-brand {
+    position: relative;
+    height: 50px;
+    line-height: 30px;
+    color: inherit;
+    padding: 10px 15px;
+  }
+  .navbar .navbar-brand:hover, .navbar .navbar-brand:focus {
+    color: inherit;
+    background-color: transparent;
+  }
+  
+  .navbar.navbar-transparent {
+    background-color: transparent;
+    box-shadow: none;
+    color: #fff;
+    padding-top: 25px;
+  }
+  
+  .navbar-fixed-top {
+    border-radius: 0;
+  }
+  
+  .navbar .navbar-nav > li > a .material-icons,
+  .navbar .navbar-nav > li > a .fa {
+    font-size: 20px;
+    max-width: 20px;
+  }
+  .navbar .navbar-nav > li > a:hover,
+  .navbar .navbar-nav > li > a:focus {
+      color: inherit;
+      background-color: transparent;
+  }
+  
+  .navbar .navbar-nav > li > a:not(.btn) .material-icons {
+    margin-top: -3px;
+    top: 0px;
+    position: relative;
+    margin-right: 3px;
+  }
+  
+  
+  @media (max-width: 991px) {
+      .fixed-section.affix {
+          position: relative;
+          margin-bottom: 100px;
+      }
+      .nav-mobile-menu .navbar-title{
+          display: none;
+      }
+  
+  }
+  
+  
+  @media (max-width: 1199px) {
+  
+    .navbar .navbar-brand {
+      height: 50px;
+      padding: 10px 15px;
+    }
+  }
+  
+  .navbar.navbar-transparent {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding-top: 10px;
+    border-radius: 0;
+  } */

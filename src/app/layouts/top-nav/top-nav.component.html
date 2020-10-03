@@ -1,0 +1,48 @@
+<mat-toolbar>
+  <mat-toolbar-row class="nav-top-bar">
+    <div col="col-md-6">
+      <span>Welcome</span>
+      <span>Call:+91 9876543210</span>
+
+
+      <span>Follow us</span>
+      <img src="../../../assets/images/SeekPng.com_facebook-logo-png-transparent_203034.png" height="20px"
+        style="margin-right: 20px;">
+      <img src="../../../assets/images/SeekPng.com_instagram-png_13633.png" height="20px" style="margin-right: 12px;">
+      <img src="../../../assets/images/unnamed.png" height="30px">
+
+    </div>
+
+    <span class="fill-remaining-space"></span>
+    <button mat-button style="margin-right: 20%;" class="navTopButton"><mat-icon>perm_identity</mat-icon>
+      
+      Login</button>
+
+  </mat-toolbar-row>
+  <mat-divider></mat-divider>
+  <mat-toolbar-row class="nav-below-bar">
+    <div class="col-md-6">
+      <span>
+        <img src="../../../assets/images/3cac7741-ad02-458d-b05c-dd4924d69727-removebg-preview-1.png" class="logo" />
+      </span>
+    </div>
+    <div class="col-md-6">
+      <span class="fill-remaining-space"></span>
+      <a [routerLink]="['/home']" mat-button class="navButton">Home</a>
+      <a  [routerLink]="['/about']" mat-button class="navButton">About</a>
+      <a [routerLink]="['/services']" mat-button class="navButton">Services</a>
+      <a  [routerLink]="['/contact-us']" mat-button class="navButton">Contact</a>
+      <button mat-icon-button class="navButton">
+        <span class="material-icons">
+          search
+          </span>
+              </button>
+      <button mat-icon-button class="navButton">
+        <span class="material-icons">shopping_bag</span>
+      </button>
+      <button mat-icon-button class="navButton">
+        <span class="material-icons">menu</span>
+      </button>
+    </div>
+  </mat-toolbar-row>
+</mat-toolbar>
