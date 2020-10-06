@@ -155,3 +155,144 @@
     vertical-align: top;
     text-align: center;
 }
+nav {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
+  word-spacing: -5px;
+  width: 1200px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  height: 500px;
+}
+
+nav ul {
+  margin: 0 auto;
+  padding: 0;
+  display: inline-block;
+}
+
+nav li {
+  background: white;
+  word-spacing: 0;
+  width: 350px;
+  list-style: none;
+  margin: 0 auto;
+  padding: 12px;
+  border-right: none;
+  border-bottom: none;
+  font-family: calibri light;
+  letter-spacing: 3px;
+  cursor: pointer;
+}
+
+nav li:hover {
+  box-shadow: -2px 2px 6px 1px rgba(0,0,0,.05);
+}
+
+nav li:active {
+  background: rgba(255,170,118, .5);
+}
+
+/* nav li span {
+  float: right;
+  font-weight: bold;
+  display: none;
+}
+
+nav li:hover span {
+  display: block;
+} */
+
+nav > div {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 800px;
+  height: 100%;
+  background: white;
+  padding: 25px;
+  word-spacing:3px;
+}
+
+nav li > div {
+  display: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 800px;
+  height: 100%;
+  background: white;
+  padding: 25px;
+  font-family: calibri;
+  letter-spacing: 1px;
+  z-index: 10;
+}
+
+nav div h1 {
+  margin: 0 auto;
+  font-size: 25px;
+}
+
+nav li:focus {
+  outline: none;
+  background: white;
+  border-top: 0px solid rgba(0, 0, 0, 0.1);
+  box-shadow: none;
+}
+
+nav li:focus > div {
+  display: block;
+}
+.textAbove{
+  color: #04d2c8;
+    font-size: 22px;
+    line-height: 1.272727272727273em;
+    font-weight: 700;
+    letter-spacing: .025em;
+    font-family: "Crimson Text",serif;
+}
+.textMiddle{
+  color: #42495b;
+  font-family: Montserrat,sans-serif;
+  font-size: 45px;
+  line-height: 1.333333333333333em;
+  font-weight: 700;
+}
+.textBelow
+{
+  color: #595959;
+  font-size: 22px;
+  line-height: 1.363636363636364em;
+  font-family: "Crimson Text",serif;
+}
+.textinList{
+  font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    box-sizing: border-box;
+    display: inline-block;
+    line-height: 1.555555555555556em;
+    font-weight: 400;
+    color: grey;
+    margin-left: 15px;
+}
+.checkIcon{
+  position: relative;
+    display: inline-block;
+    vertical-align: top;
+    font-size: 25px;
+    color: #04d2c8;
+}
+.ListHeading
+{
+  
+    display: block;
+    padding: 19px 0;
+    font-family: Montserrat,sans-serif;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 700;
+    color: #42495b;
+    border-top: 1px solid #ebebeb;
+}

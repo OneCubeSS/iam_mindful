@@ -15,6 +15,7 @@ import { MatToolbarModule } from  '@angular/material/toolbar';
 import { MatListModule } from  '@angular/material/list';
 import { MatButtonModule } from  '@angular/material/button';
 import { MatCarouselModule } from '@ngmodule/material-carousel';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { MatCarouselModule } from '@ngmodule/material-carousel';
     PartnersComponent,
     ServicesComponent,
     ContactComponent,
-    TopNavComponent
+    TopNavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

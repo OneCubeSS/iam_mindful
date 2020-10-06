@@ -1,0 +1,99 @@
+.footer{
+    height: 500px;
+    background-color:#232936;
+    padding: 118px 0;
+    text-align: left;
+
+}
+.innerDiv{
+    width: 1300px;
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+.eltdf-grid-col-3
+{
+    float: left;
+    width: 25%;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    position: relative;
+    box-sizing: border-box;
+}
+#text-4
+{
+    margin: 0 0 30px;
+    color: rgba(255,255,255,.7);
+    font-family: "Crimson Text",serif;
+    font-size: 18px;
+    line-height: 1.555555555555556em;
+    font-weight: 400;
+}
+.eltdf-widget-title
+{
+    color: #fff;
+    margin: 0 0 25px;
+    font-size: 22px;
+    line-height: 1.454545454545455em;
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+}
+.eltdf-icon-widget-holder
+{
+    color: rgb(255, 255, 255); 
+    margin: -10px 0px 6px;
+    display: inline-block;
+    
+}
+.eltdf-icon-text
+{
+    position: relative;
+    margin-left:10px ;
+    font-family: "Crimson Text",serif;
+    vertical-align: top;
+    font-size: 18px;
+}
+
+.eltdf-cli-text-inner
+{
+    padding: 0 10px;
+    margin: 0 0 20px;
+}
+.eltdf-cli-title
+{
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    line-height: 1.785714285714286em;
+    font-weight: 400;
+    color: rgba(255,255,255,.7);
+}
+.eltdf-cli-top-info
+{
+    margin-top: 1px;
+    vertical-align: top;
+    font-family: "Crimson Text",serif;
+    font-size: 18px;
+    color: rgba(255,255,255,.7);
+}
+#menu-footer
+{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    color: rgba(255,255,255,.7) !important;
+}
+.menu-item
+{
+    margin: 0 0 23px;
+    padding: 0;
+    line-height: 23px;
+    vertical-align: top;
+   
+    color: rgba(255,255,255,.7);
+}
+.menu-item a
+{
+    font-family: Montserrat,sans-serif;
+    font-size: 14px;
+    color: rgba(255,255,255,.7);
+}
