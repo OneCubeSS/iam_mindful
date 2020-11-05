@@ -1,0 +1,21 @@
+.header{
+    height: 100px;
+    background-color: rgb(69, 130, 255);
+    background-image: url(https://esmarts.qodeinteractive.com/wp-content/uploads/2017/10/about-title-img.jpg);
+   
+    position: relative;
+    display: table;
+    table-layout: fixed;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    text-align: center;
+}
+.middleText{
+    color: #ffffff;
+    font-family: Montserrat,sans-serif;
+    font-size: 50px;
+    line-height: 1.2em;
+    font-weight: 700;
+margin-top: 15%;
+}

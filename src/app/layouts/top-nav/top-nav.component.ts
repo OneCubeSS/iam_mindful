@@ -5,13 +5,8 @@ import { Component, ElementRef, OnInit } from '@angular/core';
   templateUrl: './top-nav.component.html',
   styleUrls: ['./top-nav.component.css']
 })
-export class TopNavComponent implements OnInit {
-
-  private listTitles: any[];
-  location: Location;
-    mobile_menu_visible: any = 0;
-  private toggleButton: any;
-  private sidebarVisible: boolean;
+export class TopNavComponent {
+  isCollapsed = false;
 
   constructor() {
 

@@ -9,16 +9,11 @@ import { PartnersComponent } from './components/partners/partners.component';
 import { ServicesComponent } from './components/services/services.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { TopNavComponent } from './layouts/top-nav/top-nav.component';
-import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatIconModule } from  '@angular/material/icon';
-import { MatToolbarModule } from  '@angular/material/toolbar';
-import { MatListModule } from  '@angular/material/list';
-import { MatButtonModule } from  '@angular/material/button';
-import { MatCarouselModule } from '@ngmodule/material-carousel';
+import { MDBBootstrapModule } from 'angular-bootstrap-md';
 import { FooterComponent } from './components/footer/footer.component';
-
 @NgModule({
   declarations: [
+    AppComponent,
     AppComponent,
     HomeComponent,
     AboutComponent,
@@ -31,12 +26,7 @@ import { FooterComponent } from './components/footer/footer.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    MatToolbarModule,
-    MatListModule,
-    MatButtonModule,
-    MatIconModule,
-    MatCarouselModule.forRoot()
+    MDBBootstrapModule.forRoot()
   ],
   providers: [],
   bootstrap: [AppComponent]

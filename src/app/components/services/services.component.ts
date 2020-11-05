@@ -11,5 +11,9 @@ export class ServicesComponent implements OnInit {
 
   ngOnInit() {
   }
-
+ open(id)
+ {
+   console.log( document.getElementById(id));
+   document.getElementById(id).classList.toggle("show");
+ }
 }

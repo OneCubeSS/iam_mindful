@@ -1,71 +1,42 @@
-<mat-toolbar>
-  <mat-toolbar-row class="nav-top-bar">
-    <div col="col-md-6">
-      <span>Welcome</span>
-      <span>Call:+91 9876543210</span>
+
+<mdb-navbar SideClass="navbar" class="topBarCss" [containerInside]="true">
+  <ul class="navbar-nav mr-auto mt-lg-0">
+
+      <p>Welcome&nbsp; &nbsp; &nbsp;Call
+        <a href="tel:+443003030266"> +44 300 303 0266</a> 
+        &nbsp;&nbsp; &nbsp;Follow us
+
+        <span class="fab fa-twitter"></span>
+        <span class="fab fa-instagram"></span>
+        <span class="fab fa-facebook-f"></span>
+      </p>
+  </ul>
+
+</mdb-navbar>
+<mdb-navbar SideClass="navbar navbar-expand-lg navbar-light" [containerInside]="true" class="mainMenuBar">
+  <mdb-navbar-brand>
+    <img src="../../../assets/images/3cac7741-ad02-458d-b05c-dd4924d69727-removebg-preview-1.png" class="logo" />
+  </mdb-navbar-brand>
+  <links>
+   
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link waves-light" mdbWavesEffect [routerLink]="['/home']">Home
+          <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['/about']" class="nav-link waves-light" mdbWavesEffect>About</a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['/services']" class="nav-link waves-light" mdbWavesEffect>Services</a>
+      </li>
+      <li class="nav-item">
+        <a [routerLink]="['/contact-us']" class="nav-link waves-light" mdbWavesEffect>Contact us</a>
+      </li>
+    </ul>
+  </links>
+</mdb-navbar>
 
 
-      <span>Follow us</span>
-      <img src="../../../assets/images/SeekPng.com_facebook-logo-png-transparent_203034.png" height="20px"
-        style="margin-right: 20px;">
-      <img src="../../../assets/images/SeekPng.com_instagram-png_13633.png" height="20px" style="margin-right: 12px;">
-      <img src="../../../assets/images/unnamed.png" height="30px">
 
-    </div>
 
-    <span class="fill-remaining-space"></span>
-    <button mat-button style="margin-right: 20%;" class="navTopButton"><mat-icon>perm_identity</mat-icon>
-      
-      Login</button>
-
-  </mat-toolbar-row>
-  <mat-divider></mat-divider>
-  <mat-toolbar-row class="nav-below-bar">
-    <div class="col-md-6">
-      <span>
-        <img src="../../../assets/images/3cac7741-ad02-458d-b05c-dd4924d69727-removebg-preview-1.png" class="logo" />
-      </span>
-    </div>
-    <!-- <button class="navbar-toggler" data-toggle="collapse" data-target="#navButton" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navButton">
-      <div class="col-md-6">
-        <span class="fill-remaining-space"></span>
-        <a [routerLink]="['/home']" mat-button class="navButton">Home</a>
-        <a [routerLink]="['/about']" mat-button class="navButton">About</a>
-        <a [routerLink]="['/services']" mat-button class="navButton">Services</a>
-        <a [routerLink]="['/contact-us']" mat-button class="navButton">Contact</a>
-        <button mat-icon-button class="navButton">
-          <span class="material-icons">
-            search
-          </span>
-        </button>
-        <button mat-icon-button class="navButton">
-          <span class="material-icons">shopping_bag</span>
-        </button>
-        <button mat-icon-button class="navButton">
-          <span class="material-icons">menu</span>
-        </button>
-      </div>
-    </div> -->
-    <div class="col-md-6"> 
-      <span class="fill-remaining-space"></span>
-      <a [routerLink]="['/home']" mat-button class="navButton">Home</a>
-      <a  [routerLink]="['/about']" mat-button class="navButton">About</a>
-      <a [routerLink]="['/services']" mat-button class="navButton">Services</a>
-      <a  [routerLink]="['/contact-us']" mat-button class="navButton">Contact</a>
-      <button mat-icon-button class="navButton">
-        <span class="material-icons">
-          search
-          </span>
-              </button>
-      <button mat-icon-button class="navButton">
-        <span class="material-icons">shopping_bag</span>
-      </button>
-      <button mat-icon-button class="navButton">
-        <span class="material-icons">menu</span>
-      </button>
-    </div> 
-  </mat-toolbar-row>
-</mat-toolbar>

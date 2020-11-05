@@ -1,298 +1,319 @@
-.corouselText
-{
-    z-index: 6;
-    white-space: nowrap;
-    font-size: 90px;
-    line-height: 100px;
-    font-weight: 700;
-    color: rgb(255, 255, 255);
-    letter-spacing: 0px;
-    font-family: Montserrat;
-    visibility: inherit;
-    transition: none 0s ease 0s;
-    text-align: center;
-    border-width: 0px;
-    margin: 0px;
-    padding: 0px;
-    min-height: 0px;
-    min-width: 0px;
-    max-height: none;
-    max-width: none;
-    opacity: 1;
-    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    transform-origin: 50% 50% 0px;
-    
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+
+.corouselText {
+  z-index: 6;
+  white-space: nowrap;
+  font-size: 90px;
+  line-height: 100px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+  font-family: Montserrat;
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  text-align: center;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+
 }
 
-.carouselSmallText{
-    z-index: 7;
-    white-space: nowrap;
-    font-size: 24px;
-    line-height: 30px;
-    font-weight: 400;
-    color: rgb(255, 255, 255);
-    letter-spacing: 0px;
-    visibility: inherit;
-    transition: none 0s ease 0s;
-    text-align: center;
-    border-width: 0px;
-    margin: 0px;
-    padding: 0px;
-    min-height: 0px;
-    min-width: 0px;
-    max-height: none;
-    max-width: none;
-    opacity: 1;
-    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    transform-origin: 50% 50% 0px;
-    font-family: "Crimson Text",serif;
+.carouselSmallText {
+  z-index: 7;
+  white-space: nowrap;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  text-align: center;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+  font-family: "Crimson Text", serif;
 }
-.carouselBackText
-{
-    position: absolute;
-    display: block;
-    overflow: visible;
-    z-index: 5;
-    white-space: nowrap;
-    font-size: 450px;
-    line-height: 450px;
-    font-weight: 400;
-    color: rgba(255, 255, 255, 0.25);
-    letter-spacing: 0px;
-    font-family: "Nothing You Could Do";
-    text-transform: lowercase;
-    visibility: inherit;
-    transition: none 0s ease 0s;
-    text-align: center;
-    border-width: 0px;
-    margin: 0px;
-    padding: 0px;
-    min-height: 0px;
-    min-width: 0px;
-    max-height: none;
-    max-width: none;
-    opacity: 1;
-    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
-    transform-origin: 50% 50% 0px;
+
+.carouselBackText {
+  position: absolute;
+  display: block;
+  overflow: visible;
+  z-index: 5;
+  white-space: nowrap;
+  font-size: 450px;
+  line-height: 450px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.25);
+  letter-spacing: 0px;
+  font-family: "Nothing You Could Do";
+  text-transform: lowercase;
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  text-align: center;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
 }
-::ng-deep .mat-icon.mat-icon.material-icons.mat-icon-no-color
-{
-    color:white !important;
+
+::ng-deep .mat-icon.mat-icon.material-icons.mat-icon-no-color {
+  color: white !important;
 }
-@media only screen and (max-width:768px) {
-    .carouselBackText {
-        font-size:0px ;
-    }
-    .corouselText
-    {
-        font-size:40px ;
-    }
-    .carouselSmallText
-    {
-        font-size:14px ;
-    }
-}
-.servicesInfo
-{
-    position: relative;
-    display: inline-block;
-    width: 100%;
-    vertical-align: middle;
-    box-sizing: border-box;
-    margin-top: 150px;
-    padding-top: 20px;
-    text-align: center;
-}
-.successText{
-    color: #04d2c8;
-    font-size: 22px;
-    line-height: 1.272727272727273em;
-    font-weight: 700;
-    letter-spacing: .025em;
- 
-   font-family: "Crimson Text",serif;
-}
-.serviceText{
-    color: #42495b;
-    font-family: Montserrat,sans-serif;
-    font-size: 45px;
-    line-height: 1.333333333333333em;
-}
-.serviceSubText
-{
-    color: #595959;
-    font-size: 22px;
-    line-height: 1.363636363636364em;
-    position: relative;
-    display: block;
-    margin: 11px 0 0;
-    font-family: "Crimson Text",serif;
-}
-.col-md-3
-{
-    width: 100%;
-    table-layout: fixed;
-    display: inline-table;
-}
-.serviceImg
-{
-    display: table-cell;
-    vertical-align: middle;
-    height: 100%;
-    background-position: center;
-    background-size: cover;
-    margin-left: 26%;
-}
-.col3Text
-{
-    color: #42495b;
-    font-size: 22px;
-    font-family: Montserrat,sans-serif;
-    margin-top: 3px;
-    margin: 0;
-    line-height: 1.2em;
-    font-weight: 700;
-    vertical-align: top;
-    text-align: center;
-}
-nav {
+
+.servicesInfo {
   position: relative;
-  overflow: hidden;
-  margin: 0 auto;
-  margin-top: 25px;
-  margin-bottom: 50px;
-  word-spacing: -5px;
-  width: 1200px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  height: 500px;
-}
-
-nav ul {
-  margin: 0 auto;
-  padding: 0;
   display: inline-block;
+  width: 100%;
+  vertical-align: middle;
+  box-sizing: border-box;
+  margin-top: 30px;
+  padding-top: 20px;
+  text-align: center;
 }
 
-nav li {
-  background: white;
-  word-spacing: 0;
-  width: 350px;
-  list-style: none;
-  margin: 0 auto;
-  padding: 12px;
-  border-right: none;
-  border-bottom: none;
-  font-family: calibri light;
-  letter-spacing: 3px;
-  cursor: pointer;
-}
-
-nav li:hover {
-  box-shadow: -2px 2px 6px 1px rgba(0,0,0,.05);
-}
-
-nav li:active {
-  background: rgba(255,170,118, .5);
-}
-
-/* nav li span {
-  float: right;
-  font-weight: bold;
-  display: none;
-}
-
-nav li:hover span {
-  display: block;
-} */
-
-nav > div {
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 800px;
-  height: 100%;
-  background: white;
-  padding: 25px;
-  word-spacing:3px;
-}
-
-nav li > div {
-  display: none;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 800px;
-  height: 100%;
-  background: white;
-  padding: 25px;
-  font-family: calibri;
-  letter-spacing: 1px;
-  z-index: 10;
-}
-
-nav div h1 {
-  margin: 0 auto;
-  font-size: 25px;
-}
-
-nav li:focus {
-  outline: none;
-  background: white;
-  border-top: 0px solid rgba(0, 0, 0, 0.1);
-  box-shadow: none;
-}
-
-nav li:focus > div {
-  display: block;
-}
-.textAbove{
+.successText {
   color: #04d2c8;
-    font-size: 22px;
-    line-height: 1.272727272727273em;
-    font-weight: 700;
-    letter-spacing: .025em;
-    font-family: "Crimson Text",serif;
+  font-size: 22px;
+  line-height: 1.272727272727273em;
+  font-weight: 700;
+  letter-spacing: .025em;
+
+  font-family: "Crimson Text", serif;
 }
-.textMiddle{
+
+.serviceText {
   color: #42495b;
-  font-family: Montserrat,sans-serif;
+  font-family: Montserrat, sans-serif;
   font-size: 45px;
   line-height: 1.333333333333333em;
   font-weight: 700;
 }
-.textBelow
-{
+
+.serviceSubText {
   color: #595959;
   font-size: 22px;
   line-height: 1.363636363636364em;
-  font-family: "Crimson Text",serif;
-}
-.textinList{
-  font-family: Montserrat,sans-serif;
-    font-size: 14px;
-    box-sizing: border-box;
-    display: inline-block;
-    line-height: 1.555555555555556em;
-    font-weight: 400;
-    color: grey;
-    margin-left: 15px;
-}
-.checkIcon{
   position: relative;
-    display: inline-block;
-    vertical-align: top;
-    font-size: 25px;
-    color: #04d2c8;
+  display: block;
+  margin: 11px 0 0;
+  font-family: "Crimson Text", serif;
 }
-.ListHeading
-{
-  
-    display: block;
-    padding: 19px 0;
-    font-family: Montserrat,sans-serif;
-    font-size: 18px;
-    line-height: 36px;
-    font-weight: 700;
-    color: #42495b;
-    border-top: 1px solid #ebebeb;
+
+.col-md-3 {
+  width: 100%;
+  table-layout: fixed;
+  display: inline-table;
 }
+
+.serviceImg {
+  display: table-cell;
+  vertical-align: middle;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  margin-left: 26%;
+}
+
+.col3Text {
+  color: #42495b;
+  font-size: 22px;
+  font-family: Montserrat, sans-serif;
+  margin-top: 3px;
+  margin: 0;
+  line-height: 1.2em;
+  font-weight: 700;
+  vertical-align: top;
+  text-align: center;
+}
+.col10Text {
+  color: #42495b;
+  font-size: 20px;
+  font-family: Montserrat, sans-serif;
+  margin-top: 3px;
+  margin: 0;
+  line-height: 1.2em;
+  font-weight: 700;
+  vertical-align: top;
+  text-align: center;
+  display: flex;
+  justify-self: center;
+}
+
+.textAbove {
+  color: #04d2c8;
+  font-size: 22px;
+  line-height: 1.272727272727273em;
+  font-weight: 700;
+  letter-spacing: .025em;
+  font-family: "Crimson Text", serif;
+}
+
+.textMiddle {
+  color: #42495b;
+  font-family: Montserrat, sans-serif;
+  font-size: 45px;
+  line-height: 1.333333333333333em;
+  font-weight: 700;
+}
+
+.textBelow {
+  color: #595959;
+  font-size: 22px;
+  line-height: 1.363636363636364em;
+  font-family: "Crimson Text", serif;
+}
+
+.textinList {
+  font-family: "Montserrat";
+  font-size: 14px;
+  box-sizing: border-box;
+  display: inline-block;
+  line-height: 1.555555555555556em;
+  font-weight: 400;
+  color: grey;
+  margin-left: 15px;
+}
+
+.checkIcon {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  font-size: 25px;
+  color: #04d2c8;
+}
+
+.ListHeading {
+  display: block;
+  padding: 13px 0;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 800;
+  color: #42495b;
+  border-bottom: 1px solid #ebebeb;
+}
+
+.overlay {
+  overscroll-behavior-y: inherit;
+  z-index: 5;
+  white-space: nowrap;
+  font-size: 450px;
+  line-height: 450px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.25);
+  letter-spacing: 0px;
+  font-family: "Nothing You Could Do";
+  text-transform: lowercase;
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  text-align: center;
+  border-width: 0px;
+  margin-top: -200px;
+  padding: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+}
+
+.static {
+  z-index: 6;
+  white-space: nowrap;
+  font-size: 90px;
+  line-height: 100px;
+  font-weight: 700;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+  font-family: Montserrat;
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  text-align: center;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+}
+
+.smallText {
+  z-index: 7;
+  white-space: nowrap;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+  letter-spacing: 0px;
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  text-align: center;
+  border-width: 0px;
+  margin: 0px;
+  padding: 0px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+  font-family: "Crimson Text", serif;
+}
+
+.carousel-item {
+  max-height: 600px;
+}
+@media only screen and (max-width:768px) {
+    .overlay {
+        font-size:0px ;
+    }
+    .static
+    {
+        font-size:40px ;
+    }
+    .smallText
+    {
+        font-size:14px ;
+    }
+
+}
+.align-items-center{
+  display: flex;
+  justify-content: center;
+}
+/* .textOn{
+  color:white;
+  width: 100%; 
+  height: 100%; display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center;
+} */
